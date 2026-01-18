@@ -10,7 +10,8 @@
 			name: 'NoteTaker',
 			url: 'https://www.flowdira.com/',
 			description:
-				'Flowdira is where ideas flow clearly,tasks align naturally, and productivity feels effortless.'
+				'Flowdira is where ideas flow clearly,tasks align naturally, and productivity feels effortless. Flowdira is where ideas flow clearly,tasks align naturally, and productivity feels effortless.'
+                
 		},
 		{
 			name: 'MyMap',
@@ -23,7 +24,7 @@
 
 {#each data as d}
     <div
-        class="group relative mx-auto my-4 flex w-full max-w-2xl items-start gap-6 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-100  hover:border-gray-200 hover:shadow-md hover:shadow-gray-500/10"
+        class="group relative mx-auto my-4 flex w-full max-w-2xl items-start gap-6 rounded-2xl border border-gray-300 bg-white p-5 shadow-md transition-all duration-100  hover:border-gray-200 hover:shadow-md hover:shadow-gray-500/10"
     >
         <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2">
@@ -65,7 +66,7 @@
         <img
             src="https://fastly.picsum.photos/id/961/200/200.jpg?hmac=gHwrXvhjUL97oGKmAYQn508wdQ_V5sE9P64erzR-Ork"
             alt="img"
-            class="order-first h-20 w-20 shrink-0 rounded-xl bg-gray-100 object-cover shadow-sm ring-1 ring-gray-900/5"
+            class="order-first h-full w-fit shrink-0 rounded-xl bg-gray-100 object-cover shadow-sm ring-1 ring-gray-900/5"
         />
     </div>
 {/each}
