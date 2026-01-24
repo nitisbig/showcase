@@ -21,5 +21,5 @@ export const data = $state(
 			description:
 				'Flowdira is where ideas flow clearly,tasks align naturally, and productivity feels effortless.'
 		}
-	]
+	]     
 )
