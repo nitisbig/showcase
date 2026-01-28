@@ -1,8 +1,8 @@
 <script>
-    import { data } from "./shared.svelte";
+    let {users} = $props()
 </script>
 
-{#each data as d}
+{#each users as d}
     <div
         class="group relative mx-auto my-4 flex w-full max-w-2xl items-start gap-6 rounded-2xl border border-gray-300 bg-white p-5 shadow-md transition-all duration-100  hover:border-gray-200 hover:shadow-md hover:shadow-gray-500/10"
     >

@@ -1,6 +1,6 @@
 
 
-export const data = $state(
+export const users = $state(
     [
 		{
 			name: 'Flowdira',
